@@ -9,6 +9,13 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    
+     <preference name="permissions" value="INTERNET"/>
+
+    <!-- Customize your app and platform with the preference element. -->
+    <preference name="phonegap-version" value="3.3.4" /> <!-- all: current version of PhoneGap -->
+    <preference name="orientation" value="landscape" /> 
+    
     <!-- Plugins -->
 
     <!-- Core plugins -->
